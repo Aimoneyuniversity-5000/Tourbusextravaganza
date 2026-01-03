@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tour Bus Extravaganza</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background: #ff4d00;
+      color: white;
+      text-align: center;
+      padding: 25px 15px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    header p {
+      margin-top: 8px;
+      font-size: 1.1em;
+    }
+
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .flyer {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+      margin-bottom: 25px;
+    }
+
+    h2 {
+      color: #ff4d00;
+      margin-top: 30px;
+    }
+
+    .info-box {
+      background: #ffe5d6;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .button {
+      display: block;
+      background: #ff4d00;
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      padding: 16px;
+      font-size: 1.2em;
+      font-weight: bold;
+      border-radius: 10px;
+      margin: 25px 0;
+    }
+
+    .button:hover {
+      background: #e64500;
+    }
+
+    iframe {
+      width: 100%;
+      border: none;
+      border-radius: 10px;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.4em;
+      }
+      .button {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Tour Bus to Bayside Marketplace</h1>
+  <p>Monday through Sunday • All Ages Welcome</p>
+</header>
+
+<main>
+
+  <img src="flyer.jpg" alt="Tour Bus Extravaganza Flyer" class="flyer">
+
+  <div class="info-box">
+    <h2>Pickup Locations & Times</h2>
+    <p><strong>Deerfield Beach:</strong> 1949 NE 1st St, FL 33441 — 9:00 AM</p>
+    <p><strong>Fort Lauderdale:</strong> 200 Las Olas Cir, FL 33316 — 10:00 AM</p>
+    <p>✔ Parking garages available at both locations</p>
+  </div>
+
+  <h2>Return Time</h2>
+  <p>Depart Miami (Bayside Marketplace): <strong>4:30 PM</strong></p>
+
+  <h2>Cost</h2>
+  <p><strong>$40 Round Trip</strong> ($20 to go + $20 to return)</p>
+
+  <h2>Experience Includes</h2>
+  <ul>
+    <li>✔ Round-trip transportation</li>
+    <li>✔ Free time for shopping & dining</li>
+    <li>✔ Scenic Miami waterfront views</li>
+    <li>✔ All ages welcome</li>
+  </ul>
+
+  <h2>Select Your Tour Date & Number of Tickets</h2>
+  <p>Please select your date and the number of tickets (max 60 per day). You will receive an email confirmation.</p>
+
+  <!-- Google Form Embed -->
+  <iframe 
+    src="https://docs.google.com/forms/d/e/1FAIpQLScx6ZNlWDgHZ9Xb4I4rDWwcUa1HfNDZx07rV1imttvETfgIlQ/viewform?embedded=true"
+    height="900">
+  </iframe>
+
+  <!-- Stripe Payment Button -->
+  <a href="https://buy.stripe.com/14AdR8bva6rZ70Nejh0Ny0f" class="button">
+    Pay & Reserve Your Seat
+  </a>
+
+</main>
+
+<footer>
+  www.tourbusextravaganza.com • 561-255-8506
+</footer>
+
+</body>
+</html>
+
